@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", "sans-serif";
+}
+
+a {
+    border: none;
+}
+
+body {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*下面三条用于去掉因为jquery mobile产生的底部loading字样*/
+.ui-loader-default {
+    display: none
+}
+
+.ui-mobile-viewport {
+    border: none;
+}
+
+.ui-page {
+    padding: 0;
+    margin: 0;
+    outline: 0
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.homePage {
+    background: url(http://yunyunlive.oss-cn-beijing.aliyuncs.com/survey/homeBg_NAS.jpg) no-repeat 50%/cover;
+}
+
+.homePage_moon {
+    position: absolute;
+}
+
+.homePage_title {
+    position: absolute;
+    z-index: 1;
+}
+
+.homePage_qixi {
+    position: absolute;
+    z-index: 2;
+}
+
+.homePage_cloudL {
+    position: absolute;
+    z-index: 2;
+
+}
+
+.homePage_cloudR {
+    position: absolute;
+    z-index: 2;
+}
+
+.homePage_girl {
+    position: absolute;
+    z-index: 3;
+}
+
+.homePage_button {
+    position: absolute;
+    z-index: 2;
+    /*-webkit-animation: scale 1s ease-in-out infinite both;*/
+    /*-o-animation: scale 1s ease-in-out infinite both;*/
+    /*animation: scale 1s ease-in-out infinite both;*/
+}
+
+.homePge_prompt {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    /*background: red;*/
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3rem;
+}
+
+.homePge_detail {
+    position: absolute;
+    z-index: 2;
+    color: #67bbc5;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.giftname {
+    color: #333;
+}
+
+.questionPage {
+    background: url(http://yunyunlive.oss-cn-beijing.aliyuncs.com/survey/questionBgy.png) no-repeat 50%/cover;
+    /*display: none;*/
+}
+
+.questionNumContainer {
+    background: url(http://yunyunlive.oss-cn-beijing.aliyuncs.com/survey/questionNumContainer.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.questionNum {
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.message-window {
+    position: absolute;
+}
+
+.message-window-little {
+    position: absolute;
+    z-index: 0;
+    display: none;
+}
+
+.female {
+    position: absolute;
+    z-index: 2;
+}
+
+.female-little {
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+.optionBtn {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.BtnYes {
+    float: left;
+}
+
+.BtnNo {
+    float: right;
+}
+
+.questionTitle {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.QuestionBox {
+    position: absolute;
+    display: none;
+}
+
+.QuestionNext {
+    position: absolute;
+    display: none;
+}
+
+.tipBox {
+    position: absolute;
+    display: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.findResult {
+    position: absolute;
+    /*display: none;*/
+}
+
+.resultPage {
+    background: url(http://yunyunlive.oss-cn-beijing.aliyuncs.com/survey/resultbg.jpg) no-repeat 50%/cover;
+    display: none;
+}
+#testResult_content{
+    position: absolute;
+}
+#testResult_content_bg{
+    width:100%;
+}
+
+.resultTitle {
+    position: absolute;
+}
+
+.resultName {
+    position: absolute;
+}
+
+.resultNickName {
+    position: absolute;
+}
+
+.resultHead {
+    position: absolute;
+}
+
+.resultDescription {
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 2rem;
+
+}
+
+.resultPoint {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.numBg {
+    position: absolute;
+}
+
+.shareBtn {
+    position: relative;
+}
+
+.recognition {
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 2rem;
+}
+
+.productName {
+    color: #01505c;
+}
+
+.prizeWord {
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 2rem;
+}
+
+.shareArrow {
+    position: absolute;
+}
+
+.shareGuide {
+    background: #000 no-repeat 50%/cover;
+    opacity: 0.8;
+    display: none;
+    /*z-index:3;*/
+    top:0;
+    position: absolute;
+}
+
+.recognitionCode {
+    position: absolute;
+}
+
+.backToHome {
+    color: #67bbc5;
+    font-weight: bold;
+    position: absolute;
+}
+
+.rewardPage {
+    background: url(http://yunyunlive.oss-cn-beijing.aliyuncs.com/survey/resultBG.png) no-repeat 50%/cover;
+    display: none;
+    font-size: 2.5rem;
+}
+
+.rewardIntroduce {
+    text-indent: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: hidden;
+}
+
+.rewardTitle {
+    width: 100%;
+    text-align: center;
+}
+.playMusicBtn{
+    position: absolute;
+    right: 2%;
+    animation: musicRotate 3s infinite linear;
+    -webkit-animation: musicRotate 3s infinite linear;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+@-webkit-keyframes musicRotate {
+    0%{
+       -webkit-transform:  rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes musicRotate {
+    0%{
+        -webkit-transform:  rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.playMusicBtnOn {
+    position: absolute;
+    z-index: 3;
+}
+.playMusicBtnOff {
+    position: absolute;
+    z-index: 3;
+    display: none;
+
+}
+.bottomShare{
+    position: relative;
+}
+
+
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+    html, body {
+        font-size: 16.875px;
+    }
+}
+
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+    html, body {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+    html, body {
+        font-size: 12.5px;
+    }
+}
+
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+    html, body {
+        font-size: 11.25px;
+    }
+}
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+    html, body {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+    html, body {
+        font-size: 9.375px;
+    }
+}
+
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+    html, body {
+        font-size: 8.4375px;
+    }
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    html, body {
+        font-size: 7.5px;
+    }
+}
+
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+    html, body {
+        font-size: 6.46875px;
+    }
+}
+
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+    html, body {
+        font-size: 6.25px;
+    }
+}
+
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+    html, body {
+        font-size: 5.859375px;
+    }
+}
+
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+    html, body {
+        font-size: 5.625px;
+    }
+}
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+    html, body {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+    html, body {
+        font-size: 3.75px;
+    }
+}
+
+
+#testResult_content{
+    position:relative;
+}
+
+#testResult_content a , #testResult_content img {
+    user-select:none;
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+#testResult_content_bg{
+    position:relative;
+    display:block;
+    width:100%;
+}
+
+#testResult_content_popupButton_1{
+    position:absolute;
+    width: 38%;
+    height: 18%;
+    top: 75%;
+    left: 11%;
+}
+
+#testResult_content_popupButton_2{
+    position:absolute;
+    width: 38%;
+    height: 18%;
+    top: 75%;
+    left: 53%;
+}
+
+/*----------------------------------*/
+
+
+
+#testResult_getDailPopup_wrapper a , #testResult_getDailPopup_wrapper img {
+    user-select:none;
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+#testResult_getDailPopup_wrapper{
+    position:fixed;
+    z-index:99;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    background-color:rgba(0,0,0,.20);
+    visibility:hidden;
+    opacity:0;
+    transition:all 0.6s 0s;
+    -webkit-transition:all 0.6s 0s;
+}
+
+#testResult_getDailPopup_wrapper.show{
+    visibility:visible;
+    opacity:1;
+}
+
+#testResult_getDailPopup{
+    position:absolute;
+    top:50%;
+    width:100%;
+    opacity:0;
+    transform:translateY(-40%) scale(0.9);
+    -webkit-transform:translateY(-40%) scale(0.9);
+    transition:all 0.3s ease-out;
+    -webkit-transition:all 0.3s ease-out;
+}
+
+#testResult_getDailPopup_wrapper.show #testResult_getDailPopup{
+    position:absolute;
+    top:50%;
+    width:100%;
+    opacity:1;
+    transform:translateY(-50%) scale(1);
+    -webkit-transform:translateY(-50%) scale(1);
+    transition:all 0.4s ease-out;
+    -webkit-transition:all 0.4s ease-out;
+}
+
+#testResult_getDailPopup_bg{
+    position:relative;
+    display:block;
+    width:100%;
+}
+
+#testResult_getDailPopup_text1 , #testResult_getDailPopup_text2{
+    position:absolute;
+    display:none;
+    top:0px;
+    width:100%;
+}
+
+#testResult_getDailPopup_wrapper.t1 #testResult_getDailPopup_text1 , #testResult_getDailPopup_wrapper.t2 #testResult_getDailPopup_text2{
+    display:block;
+}
+
+#testResult_getDailPopup_input{
+    position: absolute;
+    left: 14%;
+    width: 72%;
+    top: 61%;
+    height: 9%;
+    font-size: 20px;
+    font-family: geogia;
+    text-align: center;
+    border: 0px none;
+    padding: 8px;
+    box-sizing: border-box;
+    outline:none;
+    font-weight:bold;
+    background-color: rgba(0,0,0,0);
+}
+
+#testResult_content_all_popupSubmit{
+    position:absolute;
+    width: 56%;
+    height: 18%;
+    top: 78%;
+    left: 22%;
+}
+
+#testResult_content_all_popupClose{
+    position:absolute;
+    width: 11%;
+    height: 10%;
+    top: 1%;
+    right: 1%;
+}
