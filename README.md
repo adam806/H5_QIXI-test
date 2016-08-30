@@ -1,2 +1,2 @@
 # QiXi-test
-This is my first H5 project,a questionnaire H5
+这是我的第一个H5作品，其中还有一点小bug没有改掉，点击QiXI_h5.PHP查看。
